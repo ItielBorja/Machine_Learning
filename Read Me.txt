@@ -1,0 +1,21 @@
+Lo que se tiene que hacer es que los árboles de decisión solo acepten valores numéricos, no strings, entonces se cambian los valores numéricos especialmente species. Por ejemplo, se le asigna a una especia el número 0, luego número 1 y así sucesivamente. 
+
+Decision Tree
+#dt = tree.DecisionTreeClassifier(criterion='entropy',max_depth=2)
+
+
+
+#samples = data2[['is_sub_legendary','is_legendary','is_mythical',
+#                    'total_points','hp','defense','sp_attack','sp_defense',
+#                    'speed']]
+
+#labels = data2[['attack']]
+
+#dt = dt.fit(samples, labels,)
+
+#Display tree
+#dt = dt.fit(samples, labels,)
+#tree.plot_tree(dt, feature_names=samples.columns)
+#plt.show()
+
+Este código es para hacer el árbol una vez que ya se tienen las dos columnas con valores numéricos
